@@ -1,0 +1,45 @@
+.sequencer-component {
+    display: inline-block;
+    border: 1px solid;
+}
+
+.sequencer-component .tracks {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.sequencer-component .tracks li {
+    display: block;
+    position: relative;
+    padding: 0 10px;
+    line-height: 50px;
+    border-top: 1px solid;
+    line-height: 50px;
+
+    // ...
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sequencer-component .track-title {
+    border-top: 0;
+}
+
+.sequencer-component .track-opts {
+    position: absolute;
+    top: 1px;
+    left: -1777px;
+    background: rgba(23, 26, 25, 0.39);
+    padding: 7px 3px;
+    width: 100%;
+    color: #13FF13;
+}
+
+.sequencer-component .track-opts span {
+    padding: 10px;
+}
+.sequencer-component .track-opts.showing {
+    left: 0;
+}

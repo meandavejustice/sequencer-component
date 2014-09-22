@@ -1,0 +1,22 @@
+module.exports = {
+  bpm: 180,
+  muted: false,
+  activeColor: "#ff0beb",
+  tracks: [
+    {
+      "id": "default",
+      "title": "Tracks",
+      "header": true
+    },
+    {
+      "id": "12ad34",
+      "title": "Steal my Sunshine -- Len",
+      "url": "/Clap.wav"
+    },
+    {
+      "id": "34sda1",
+      "title": "Damaged -- Black Flag",
+      "url": "/Kick.wav"
+    }
+  ]
+};
